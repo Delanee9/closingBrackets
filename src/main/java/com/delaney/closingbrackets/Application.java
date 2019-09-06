@@ -15,7 +15,7 @@ public class Application {
         openingBracket.put(']', '[');
         openingBracket.put(')', '(');
         boolean result = hasClosingBrackets(args[0].toCharArray());
-        logger.info("Stopping application with result - " + result);
+        logger.info("Stopping application with result -- " + result);
     }
 
     public static boolean hasClosingBrackets(char[] input) {
