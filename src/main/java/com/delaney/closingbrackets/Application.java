@@ -41,7 +41,7 @@ public class Application {
                 }
             }
         } catch (Exception e) {
-            logger.severe("Error in hasClosingBrackets -- " + e);
+            logger.severe("Error in hasClosingBrackets --- " + e);
             return false;
         }
         return stack.isEmpty();
