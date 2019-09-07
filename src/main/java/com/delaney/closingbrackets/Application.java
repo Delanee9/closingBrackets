@@ -10,7 +10,7 @@ public class Application {
     private static LinkedList<Character> stack = new LinkedList<>();
 
     public static void main(String[] args) {
-        logger.info("Starting application with input -- " + args[0]);
+        logger.info("Starting application with input --- " + args[0]);
         openingBracket.put('}', '{');
         openingBracket.put(']', '[');
         openingBracket.put(')', '(');
